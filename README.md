@@ -5,19 +5,19 @@ In this remix I want to create a shmup similar to galaga but with an expanding h
 
 ## Additions
 I want to add to new mechanics:
-      - *Expanding hitbox*
-          - Towing a group of survivors
-      - *Kidnapping enemies*
-          - Steal their projectile type for firing.
-          - Tractor beam to kidnap
-          - If enemies are hit, only enemy is damaged.
+* *Expanding hitbox*
+	* Towing a group of survivors
+* *Kidnapping enemies*
+	* Steal their projectile type for firing.
+	* Tractor beam to kidnap
+	* If enemies are hit, only enemy is damaged.
           
 ## Base Game
 The basic mechanics and ruleset are taken from "Introduction to Game Design, Prototyping, and Development: From Concept to Playable Game with Unity and C#, 2nd Edition" Chapter 30. This includes movement, collsion, shield, and player projectiles.
 
-### Process
+## Process
 
-#### Ideation
+### Ideation
 **Snake tail / towing survivors**
 * Fullerton’s Formal elements
 	* The main element that I will be adjusting here would be objective as the survivors would more so be bonus points instead of a necessity. However this will also expand the player’s hitbox forcing the procedure and rules to slightly alter. The general conflict of shooting and surviving will stay the same.
