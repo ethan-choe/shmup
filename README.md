@@ -19,7 +19,7 @@ The basic mechanics and ruleset are taken from "Introduction to Game Design, Pro
 
 #### Ideation
 **Snake tail / towing survivors**
-* Fullerton’s Formal elements /n
+* Fullerton’s Formal elements
 	* The main element that I will be adjusting here would be objective as the survivors would more so be bonus points instead of a necessity. However this will also expand the player’s hitbox forcing the procedure and rules to slightly alter. The general conflict of shooting and surviving will stay the same.
 * Puzzles / challenges
 	* The main challenge here will be to predict enemy attack patterns more precisely so that you don’t lose survivors to the attack.
