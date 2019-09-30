@@ -46,6 +46,6 @@ The basic mechanics and ruleset are taken from "Introduction to Game Design, Pro
 	
 ### 9/30
 * Copied the snake function from youtube video
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=xz8Ga9er3_8
+	* <a href="http://www.youtube.com/watch?feature=player_embedded&v=xz8Ga9er3_8
 " target="_blank"><img src="http://img.youtube.com/vi/xz8Ga9er3_8/0.jpg" 
 alt="YouTube Video" width="240" height="180" border="10" /></a>
