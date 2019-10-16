@@ -49,3 +49,6 @@ The basic mechanics and ruleset are taken from "Introduction to Game Design, Pro
 	* <a href="http://www.youtube.com/watch?feature=player_embedded&v=xz8Ga9er3_8
 " target="_blank"><img src="http://img.youtube.com/vi/xz8Ga9er3_8/0.jpg" 
 alt="YouTube Video" width="240" height="180" border="10" /></a>
+
+### 8/16
+The snake function possesses issues with dissappearing. Also Enemies don't spawn although the code is the same as the working code. I need to translate the snake function to the x y axis rather than the x z axis and I need to give the enemies projectiles and scrolling spawn patterns.
