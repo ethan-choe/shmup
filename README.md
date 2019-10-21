@@ -54,3 +54,7 @@ alt="YouTube Video" width="240" height="180" border="10" /></a>
 
 ### 10/16
 The snake function possesses issues with dissappearing. Also Enemies don't spawn although the code is the same as the working code. I need to translate the snake function to the x y axis rather than the x z axis and I need to give the enemies projectiles and scrolling spawn patterns.
+
+###Playtesting Review and what I learned:
+      I never got the game to work as I wanted however people seemed to like the concept. When the players saw the snake like movement, they enjoyed the smoothness and distance, however disliked how they clumped up. The idea of them following the player ship I thought could be solved by a simple target function however I'm unsure on how to make it work. One common concern was that if there are too many enemies, it would be nearly impossible to dodge in such a small space. This could be improved by either increasing the aspect ratio or scaling down all of the prefabs and assets. Because it's a bullet hell, the free space is much more important. Especially since the player's hitbox continuously increases.
+      In the end I think just investing more time in this project would have improved my remix drastically, unfortunately I focused on alternate projects I'm preoccupied with at the moment. I hope to come back to this game and finish it with full functionality but for now it's still in a prototype stage.
