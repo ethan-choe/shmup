@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 /// <summary>
-/// Checks whether a GamObject is on screen and can force it to stay on screen.
+/// Checks whether a GameObject is on screen and can force it to stay on screen.
 /// Note that this ONLY works for an orthographic Main Camera at [0, 0, 0].
 /// </summary>
 
