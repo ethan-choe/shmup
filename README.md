@@ -41,3 +41,16 @@ The basic mechanics and ruleset are taken from "Introduction to Game Design, Pro
 	* There will be a timing challenge where the player must bait enemy attacks to one side of the screen in order to provide ample time to rush to the barrier exit location and dodge through. The player will also have to remember the dodge pattern located at the dodge site to efficiently get through without getting shot at.
 * Basic rules
 	* Barriers will approach the player in a top down scrolling environment where the player can only move left to right. Barriers will have icons that have a ship position that the player must adjust using different buttons to rotate their ship. This rotation will control the direction of the players weapon fire as the ship will only shoot forward.
+	
+	
+	
+### 9/30
+* Copied the snake function from youtube video
+	* <a href="http://www.youtube.com/watch?feature=player_embedded&v=xz8Ga9er3_8
+" target="_blank"><img src="http://img.youtube.com/vi/xz8Ga9er3_8/0.jpg" 
+alt="YouTube Video" width="240" height="180" border="10" /></a>
+* Added more enemy types from textbook
+* Created base game, however many of the enemies don't work as intended. I believe the main Enemy script is the cause of the issue but the code says the error originates in the main script.
+
+### 10/16
+The snake function possesses issues with dissappearing. Also Enemies don't spawn although the code is the same as the working code. I need to translate the snake function to the x y axis rather than the x z axis and I need to give the enemies projectiles and scrolling spawn patterns.
