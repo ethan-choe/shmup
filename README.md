@@ -49,6 +49,8 @@ The basic mechanics and ruleset are taken from "Introduction to Game Design, Pro
 	* <a href="http://www.youtube.com/watch?feature=player_embedded&v=xz8Ga9er3_8
 " target="_blank"><img src="http://img.youtube.com/vi/xz8Ga9er3_8/0.jpg" 
 alt="YouTube Video" width="240" height="180" border="10" /></a>
+* Added more enemy types from textbook
+* Created base game, however many of the enemies don't work as intended. I believe the main Enemy script is the cause of the issue but the code says the error originates in the main script.
 
-### 8/16
+### 10/16
 The snake function possesses issues with dissappearing. Also Enemies don't spawn although the code is the same as the working code. I need to translate the snake function to the x y axis rather than the x z axis and I need to give the enemies projectiles and scrolling spawn patterns.
