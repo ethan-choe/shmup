@@ -18,11 +18,13 @@ public class Snake : MonoBehaviour
     private float dis;
     private Transform curBodyPart;
     private Transform PrevBodyPart;
+    private Transform target;
 
     // private Hero s;
 
     void Start()
     {
+        // target = GameObject.FindGameObjectsWithTag("Hero").GetComponent<Transform>();
         for(int i = 0; i < beginsize - 1; i++)
         {
             AddBodyPart();
@@ -52,6 +54,8 @@ public class Snake : MonoBehaviour
         }
 
         // Movement
+        // transform.position = Vector3.MoveTowards(transform.position, target.position, speed * Time.deltaTime);
+
         // Pull in information from the Input class
         float xAxis = Input.GetAxis("Horizontal");
         float yAxis = Input.GetAxis("Vertical");
@@ -61,9 +65,6 @@ public class Snake : MonoBehaviour
         pos.x += xAxis * speed * Time.deltaTime;
         pos.y += yAxis * speed * Time.deltaTime;
         transform.position = pos;
-
-        // Rotate the ship to make it feel more dynamic
-        transform.rotation = Quaternion.Euler(yAxis*pitchMult,xAxis*rollMult,0);
 
         if(Input.GetAxis("Horizontal") != 0)
         {
@@ -102,10 +103,12 @@ public class Snake : MonoBehaviour
     void OnCollisionEnter( Collision coll)
     {
         GameObject otherGO = coll.gameObject;
-        if (otherGO.tag == "Enemy")
+
+        
+        if (otherGO.tag == "Enemy" || otherGO.tag == "ProjectileEnemy")
         {
             Destroy( otherGO );         // Destroy the Projectile
-            Destroy( gameObject );      // Destroy this Enemy GameObject
+            Destroy( gameObject );      // Destroy this snake GameObject
         } else {
             print( "Enemy hit by non-Enemy: " + otherGO.name );
         }
